@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\artem\\source\\repos\\PublicChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730FF56D-6BBD-4D2A-9ED0-CD79010F5BD0}|WebClient\\WebClient.csproj|c:\\users\\artem\\source\\repos\\publicchat\\webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730FF56D-6BBD-4D2A-9ED0-CD79010F5BD0}|WebClient\\WebClient.csproj|solutionrelative:webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|c:\\users\\artem\\source\\repos\\publicchat\\webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|solutionrelative:webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB23F0F-53F7-44A5-B767-6C122A2220D0}|Server\\Server.csproj|c:\\users\\artem\\source\\repos\\publicchat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB23F0F-53F7-44A5-B767-6C122A2220D0}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB23F0F-53F7-44A5-B767-6C122A2220D0}|Server\\Server.csproj|c:\\users\\artem\\source\\repos\\publicchat\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EB23F0F-53F7-44A5-B767-6C122A2220D0}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|c:\\users\\artem\\source\\repos\\publicchat\\webclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|solutionrelative:webclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|c:\\users\\artem\\source\\repos\\publicchat\\webclient\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C466E7F6-4C99-48B4-AE18-8F4C9FF54D9A}|WebClient\\WebClient.csproj|solutionrelative:webclient\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\source\\repos\\publicchat\\baselibrary\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{160EC384-CA87-44BE-B1EE-6E11A33CD58C}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\artem\\source\\repos\\publicchat\\serverlibrary\\services\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{160EC384-CA87-44BE-B1EE-6E11A33CD58C}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\services\\contracts\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\source\\repos\\publicchat\\baselibrary\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\source\\repos\\publicchat\\baselibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA68A06B-E9C9-4300-A848-E70260A3066D}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,28 +82,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Program.cs",
-              "RelativeDocumentMoniker": "WebClient\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Program.cs",
-              "RelativeToolTip": "WebClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:42:02.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\appsettings.json",
-              "RelativeToolTip": "Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-09T17:02:18.423Z",
+              "WhenOpened": "2024-12-09T19:37:31.762Z",
               "EditorCaption": ""
             },
             {
@@ -102,14 +101,66 @@
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:02:00.712Z",
+              "WhenOpened": "2024-12-09T19:32:40.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebClient\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebClient\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:30:43.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\DTOs\\MessageDTO.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\MessageDTO.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\DTOs\\MessageDTO.cs",
+              "RelativeToolTip": "BaseLibrary\\DTOs\\MessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:28:56.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chat.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Pages\\Chat.razor",
+              "RelativeDocumentMoniker": "WebClient\\Pages\\Chat.razor",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Pages\\Chat.razor",
+              "RelativeToolTip": "WebClient\\Pages\\Chat.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:22:18.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Program.cs",
+              "RelativeDocumentMoniker": "WebClient\\Program.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\Program.cs",
+              "RelativeToolTip": "WebClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:18:21.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Services\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Hubs\\ChatHub.cs",
@@ -117,12 +168,11 @@
               "RelativeToolTip": "ServerLibrary\\Services\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:00:57.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T17:00:57.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Implementations\\UserService.cs",
@@ -130,12 +180,11 @@
               "RelativeToolTip": "ServerLibrary\\Services\\Implementations\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:00:31.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T17:00:31.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ChatService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Services\\Implementations\\ChatService.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Implementations\\ChatService.cs",
@@ -143,12 +192,11 @@
               "RelativeToolTip": "ServerLibrary\\Services\\Implementations\\ChatService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:00:12.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T17:00:12.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Services\\Contracts\\IUserService.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Contracts\\IUserService.cs",
@@ -156,12 +204,11 @@
               "RelativeToolTip": "ServerLibrary\\Services\\Contracts\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:59:51.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:59:51.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
@@ -169,12 +216,23 @@
               "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:52:40.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:52:40.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T17:02:18.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IChatService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\ServerLibrary\\Services\\Contracts\\IChatService.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Contracts\\IChatService.cs",
@@ -182,12 +240,11 @@
               "RelativeToolTip": "ServerLibrary\\Services\\Contracts\\IChatService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:59:28.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:59:28.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UserDTO.cs",
@@ -195,25 +252,11 @@
               "RelativeToolTip": "BaseLibrary\\DTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:53:49.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:53:49.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MessageDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\DTOs\\MessageDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\MessageDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\DTOs\\MessageDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\MessageDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:49:11.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\Entities\\Message.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\Entities\\Message.cs",
@@ -221,12 +264,11 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:48:55.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:48:55.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\PublicChat\\BaseLibrary\\Entities\\User.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\Entities\\User.cs",
@@ -234,8 +276,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:48:26.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T16:48:26.282Z"
             }
           ]
         }

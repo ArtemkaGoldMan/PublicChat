@@ -1,24 +1,44 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebClient.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebClient.bundle.scp.css"
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\app.css",
-      "PackagePath": "staticwebassets\\app.css"
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\obj\\Debug\\net8.0\\compressed\\vsvsxmhk7d.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebClient.styles.css",
+      "PackagePath": "staticwebassets\\WebClient.styles.css"
     },
     {
-      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
       "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\artem\\source\\repos\\PublicChat\\WebClient\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props",

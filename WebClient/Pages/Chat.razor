@@ -1,0 +1,79 @@
+﻿@page "/chat"
+@inject HubConnection HubConnection
+@using BaseLibrary.DTOs
+@using Microsoft.AspNetCore.SignalR.Client
+
+<h3>Chat Room</h3>
+
+<div class="chat-input">
+    <input @bind="Nickname" placeholder="Enter your nickname" class="form-control mb-2" />
+</div>
+<div class="chat-input">
+    <textarea @bind="Message" placeholder="Type a message" class="form-control mb-2"></textarea>
+    <button class="btn btn-primary" @onclick="SendMessage" disabled="@IsSending">Send</button>
+</div>
+
+<h4>Messages</h4>
+<div class="chat-messages">
+    <ul class="list-group">
+        @foreach (var message in Messages)
+        {
+            <li class="list-group-item">
+                <b>@message.Nickname</b>: @message.Content
+                <span class="text-muted float-end small">@message.Timestamp.ToLocalTime()</span>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    private string Nickname { get; set; } = string.Empty;
+    private string Message { get; set; } = string.Empty;
+    private List<MessageDTO> Messages { get; set; } = new();
+    private bool IsSending { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Set up the SignalR connection
+        HubConnection.On<MessageDTO>("ReceiveMessage", (message) =>
+        {
+            Messages.Add(message);
+            InvokeAsync(StateHasChanged);
+        });
+
+        await HubConnection.StartAsync();
+
+        // Load recent messages
+        var recentMessages = await HubConnection.InvokeAsync<List<MessageDTO>>("GetRecentMessages");
+        Messages.AddRange(recentMessages);
+    }
+
+    private async Task SendMessage()
+    {
+        if (HubConnection != null && HubConnection.State == HubConnectionState.Connected)
+        {
+            try
+            {
+                IsSending = true;
+
+                var newMessage = new MessageDTO
+                    {
+                        Nickname = Nickname,
+                        Content = Message,
+                        Timestamp = DateTime.UtcNow
+                    };
+
+                await HubConnection.InvokeAsync("SendMessage", newMessage);
+                Message = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending message: {ex.Message}");
+            }
+            finally
+            {
+                IsSending = false;
+            }
+        }
+    }
+}

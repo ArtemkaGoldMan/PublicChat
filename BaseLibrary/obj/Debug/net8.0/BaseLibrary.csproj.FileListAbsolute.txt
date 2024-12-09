@@ -5,6 +5,7 @@ C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.sourcelink.json
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
 C:\Users\artem\source\repos\PublicChat\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb

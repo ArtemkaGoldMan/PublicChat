@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using ServerLibrary.Data;
 using ServerLibrary.Service.Contracts;
 using ServerLibrary.Service.Implementations;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +21,18 @@ builder.Services.AddSignalR();
 builder.Services.AddScoped<IChatService, ChatService>();
 builder.Services.AddScoped<IUserService, UserService>();
 
+// Configure CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("https://localhost:7024", "http://localhost:5091") // Blazor WebAssembly client URLs
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +43,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(); // Apply CORS globally
 
 app.UseAuthorization();
 
