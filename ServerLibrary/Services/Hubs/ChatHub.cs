@@ -17,10 +17,9 @@ namespace ServerLibrary.Service.Implementations
 
         public async Task SendMessage(MessageDTO messageDTO)
         {
-            // Ensure the user exists or create a new one
+
             var user = await _userService.GetOrCreateUserAsync(messageDTO.Nickname);
 
-            // Save the message
             await _chatService.SaveMessageAsync(new MessageDTO
             {
                 Content = messageDTO.Content,
@@ -28,7 +27,6 @@ namespace ServerLibrary.Service.Implementations
                 Timestamp = DateTime.UtcNow
             });
 
-            // Broadcast the message to all connected clients
             await Clients.All.SendAsync("ReceiveMessage", messageDTO);
         }
 
